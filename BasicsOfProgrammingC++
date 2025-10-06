@@ -1,0 +1,33 @@
+#C++ Basic Code:-
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    /*
+    1)<< - outstream operator
+    2)endl - immediately flushes the endline while \n hold it in buffer
+    3)endl and /n are used for nextline(cout << endl; or cout <<"\n";)
+    */
+    
+    cout << "Gauri\nKhedekar\n";
+    cout << "Gauri" << endl;
+    cout << "Khedekar" << endl;
+    cout << "Gauri";
+    cout << endl;//starts newline
+    cout << "Khedekar";
+    
+
+    return 0;
+}
+#OUTPUT:-
+Gauri
+Khedekar
+Gauri
+Khedekar
+Gauri
+Khedekar
+
+...Program finished with exit code 0
+Press ENTER to exit console.
